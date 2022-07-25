@@ -1,0 +1,133 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./Norse-Bold.otf)
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 70vw;
+}
+
+
+.left {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./img/jacob-dyer-R3ut7WOmeto-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 50%;
+    width: 100%;
+    height: 200px;
+    padding: 1rem 0;  
+    font-size: 5rem;
+    font-family: norse-bold, sans-serif;
+    color: white;
+    
+}
+
+.logo img {
+    max-height: 100%;
+}
+
+
+.copyright, a {
+    color:rgb(200, 200, 200);
+    margin-top: auto;
+    margin-bottom: 10px;
+    justify-content: center;
+    
+}
+
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 5;
+    height: 100vh;
+    color:orange;
+    padding-left: 25px;
+}
+
+.heading {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    width: 70%;
+    font-size: 0.8rem;
+    color: rgb(145, 94, 0);
+
+    
+}
+
+.form > p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+input {
+    background-color: black;
+    border: 1px solid rgb(64, 64, 64);
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: white;
+}
+
+input:hover, input:focus, input:active {
+    outline: none;
+    border: 1px solid orange;
+}
+
+button {
+    background-color: black;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    color: orange;
+    margin: 25px 0 25px 0;
+}
+
+button:hover {
+    background-color: orange;
+    color: black;
+}
