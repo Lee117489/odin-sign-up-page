@@ -18,41 +18,44 @@
         </div>
         <div class="right">
             <div class="heading">
-                <p>This is not a real online service! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h1>This is not a real online service!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
+            <div><p>Let's do this!</p></div>
             <div class="form">
-                <p>Let's do this!</p>
                 <form action="">
-                    <label>First Name
-                        <input type="text" name="firstName">
-                    </label>
-                    
-                    <label>Last Name
-                        <input type="text" name="lastName">
-                    </label>
-                    
-                    <label>Email
-                        <input type="email" name="email">
-                    </label>
-                    
-                    <label>Phone number
-                        <input type="number" name="phone">
-                    </label>
-                    
-                    <label >Password
-                        <input type="password" name="password">
-                    </label>
-                    
-                    <label ">Confirm password
-                        <input type="password" name="confirmPassword">
-                    </label>
-                    
+                    <div class="inputs">
+                        <label>First Name
+                            <input type="text" name="firstName" required>
+                        </label>
+                        
+                        <label>Last Name
+                            <input type="text" name="lastName" required>
+                        </label>
+                        
+                        <label>Email
+                            <input type="email" name="email" required>
+                        </label>
+                        
+                        <label>Phone number
+                            <input type="tel" name="phone" required>
+                        </label>
+                        
+                        <label >Password
+                            <input type="password" id="password" name="password" required>
+                        </label>
+                        
+                        <label ">Confirm password
+                            <input type="password" id="confirmPassowrd" name="confirmPassword" required>
+                        </label>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? <a href="">Log in</a></p>
+                    </div>
                 </form>
             </div>
-            <div class="button">
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="">Log in</a></p>
-            </div>
+            
         </div>
     </div>
     
