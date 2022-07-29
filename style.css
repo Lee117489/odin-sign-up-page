@@ -124,6 +124,14 @@ button:hover {
     color: black;
 }
 
+.error {
+    margin-top: 0.5rem;
+    color: rgb(200, 0, 0);
+}
+
+
+
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus,
