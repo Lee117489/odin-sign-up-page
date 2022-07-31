@@ -109,6 +109,18 @@ input:hover, input:focus, input:active {
     border: 1px solid orange;
 }
 
+input:focus::placeholder {
+    color:transparent;
+}
+
+input:not(:placeholder-shown) {
+    border: 1px solid rgba(255, 0, 0, 0.644);
+}
+
+input:valid {
+    border: 1px solid rgba(2, 118, 2, 0.771);
+}
+
 button {
     background-color: black;
     border: 2px solid orange;
@@ -122,6 +134,10 @@ button {
 button:hover {
     background-color: orange;
     color: black;
+}
+
+.button a {
+    text-decoration: none;
 }
 
 .error {
